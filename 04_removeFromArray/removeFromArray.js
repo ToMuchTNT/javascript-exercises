@@ -3,8 +3,6 @@ const removeFromArray = function(numbers, ...toRemove) {
     for (const num of toRemove) {
         remove.push(num)        
     }
-    console.log(numbers)
-    console.log(remove)
     return numbers.filter(item => !remove.includes(item))
 };
 
